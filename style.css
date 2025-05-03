@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*font-family: "Istok Web", sans-serif;
+font-style: italic;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Istok Web", sans-serif;
+    background: black;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 1rem 2rem;
+    font-size: 40px;
+    font-style: italic;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    margin: auto 3rem;
+    list-style: none;
+}
+
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.menu:hover {
+    background-color: gainsboro;
+}
+
+/*คอนเท้น*/
+
+.container {
+    color: white;
+    position: relative;
+    width: 1330px;
+    height: 488px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.who {
+    font-family: "Istok Web", sans-serif;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.am {
+    font-family: "Istok Web", sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    position: absolute;
+    left: 3rem;
+}
+
+.student {
+    font-family: "Istok Web", sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    position: absolute;
+    left: 23rem;
+}
+
+
+.title {
+    font-family: "Istok Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    height: 182px;
+    width: 573px;
+    position: absolute;
+    top: 227px;
+    left: 200px;
+}
+
+.imge {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 939px;
+    top: 86px;
+}
+
+.typewriter {
+    display: inline-block;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 39px;
+    left: 56px;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.typewriter {
+    animation: blink 0.7s step-end infinite;
+}
