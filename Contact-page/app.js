@@ -4,3 +4,13 @@ function audioplay() {
   }
   
   window.addEventListener("DOMContentLoaded", audioplay);
+
+  // ควบคุม navbar
+window.addEventListener("DOMContentLoaded", audioplay);
+
+function handleSelect(select) {
+  const url = select.value;
+  if (url) {
+    window.location.href = url;
+  }
+}

@@ -14,17 +14,26 @@
         <source src="../audio/Ludwig Van Beethoven Symphony No 5 Op 67.mp3" type="audio/mpeg">
     </audio>
 
+
     <header>
         <nav>
             <div class="logo">My Portfolio</div>
             <ul>
                 <li><a class="menu" href="../index.html">HOME</a></li>
-                <li><a class="menu" href="../Achievements-page/work.html">Achievements</a></li>
+                <li>
+                    <select class="find" onchange="handleSelect(this)">
+                        <option class="menu-choice" value="">Select Work</option>
+                        <option class="menu-choice" value="../work-page/achievement-page/achievement.html">Achievements
+                        </option>
+                        <option class="menu-choice" value="../work-page/robot-page/robot.html">Robot</option>
+                        <option class="menu-choice" value="../work-page/hobby-page/hobby.html">Hobby</option>
+                        <option class="menu-choice" value="../work-page/volunteer-page/volunteer.html">Volunteer</option>
+                    </select>
+                </li>
                 <li><a class="menu" href="../Contact-page/contact.html">CONTACT</a></li>
-                <li><a class="menu" href="../AboutMe-page/aboutme.html">ABOUT ME</a></li>
+                <li><a class="menu" href="AboutMe-page/aboutme.html">ABOUT ME</a></li>
             </ul>
     </header>
-
     <div class="container">
         <div class="about">About Me</div>
         <div class="container-content">

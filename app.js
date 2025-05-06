@@ -40,4 +40,13 @@ function audioplay() {
   audio.volume = 0.05;
 }
 
+// ควบคุม navbar
 window.addEventListener("DOMContentLoaded", audioplay);
+
+function handleSelect(select) {
+  const url = select.value;
+  if (url) {
+    window.location.href = url;
+  }
+}
+

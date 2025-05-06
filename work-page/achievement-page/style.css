@@ -18,7 +18,7 @@ header {
     max-width: 100%;
     margin: 0 auto;
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 10;
 }
 
@@ -52,6 +52,12 @@ ul {
 .menu:hover {
     background-color: gainsboro;
 }
+
+.find {
+    font-size: 24px;
+    border: none;
+}
+
 
 /*content*/
 .container {
@@ -115,7 +121,9 @@ img {
         scale: 1;
     }
 }
-img , .ht{
+
+img,
+.ht {
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: entry 30%;

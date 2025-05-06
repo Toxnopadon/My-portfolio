@@ -51,6 +51,12 @@ ul {
     background-color: gainsboro;
 }
 
+.find {
+    font-size: 24px;
+    border: none;
+}
+
+
 /*คอนเท้น*/
 .container {
     color: white;
