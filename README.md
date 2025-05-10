@@ -1,2 +1,10 @@
 ﻿# My-portfolio
 Link : https://toxnopadon.github.io/My-portfolio/
+
+
+academic เสร็จเเล้ว ✅
+RObot เสร็จเเล้ว ✅ อนาคตน่าจะทำยูทูปเป็น เพลลิสไว้ให้เข้าไปติดตาม
+programimg ✅ เหลือโปรเจค ต่อท้าย
+camp เหลือ ✅
+valunteer เหลือทุกอย่าง❌ จะมีการจัหน้าที่ต่างจากหน้าอื่น เป็นเเบบ block
+hobby เหลือทุกอย่างหารูปด้วย❌
