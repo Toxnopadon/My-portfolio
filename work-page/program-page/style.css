@@ -95,9 +95,10 @@ ul {
 .title {
     display: block;
     font-size: 24px;
-    height: 230px;
+    height: auto;
     width: 500px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 img {
@@ -127,4 +128,10 @@ img,
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: entry 30%;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(56, 124, 172);
+    font-size: small;
 }

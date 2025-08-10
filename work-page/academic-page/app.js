@@ -14,3 +14,7 @@ function handleSelect(select) {
     window.location.href = url;
   }
 }
+
+function toggleham(x) {
+  x.classList.toggle("change");
+}
